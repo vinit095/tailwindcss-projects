@@ -1,6 +1,6 @@
 # tailwindcss/projects
 
-All the projects mentioned here will be pure static pages of different websites. You can clone this repo and view them in your local server.
+All the projects mentioned here will be pure static pages of different websites. You can clone this repo and view them in your local server. Don't miss a thing.
 
 ## Recommended IDE Setup
 
