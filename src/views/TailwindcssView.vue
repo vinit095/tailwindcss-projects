@@ -595,8 +595,8 @@
             <div class="rounded-md border">
               <table class="w-full font-normal">
                 <tbody>
-                  <tr class="bg-[#f6f8fa] h-10">
-                    <td class="p-1">
+                  <tr class="bg-[#f6f8fa] h-10 border-b">
+                    <td class="p-1" colspan="3">
                       <div class="p-2 pl-4 flex items-center justify-between gap-2">
                         <div class="flex gap-2 items-center grow">
                           <div class="flex">
@@ -683,24 +683,803 @@
                       </div>
                     </td>
                   </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-[#54aeff]"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">.github</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline"
+                            >Hoist oxide/crates to just crates (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last week</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-[#54aeff]"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">crates</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline"
+                            >Prepare next release: 4.0.0-alpha.11 (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">5 days ago</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-[#54aeff]"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">packages</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline"
+                            >Correct repository fields in package.json files (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13416</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">14 hours ago</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-[#54aeff]"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">playgrounds</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline"
+                            >Use Vite waitForRequestsIdle (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">2 weeks ago</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-[#54aeff]"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M1.75 1A1.75 1.75 0 0 0 0 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0 0 16 13.25v-8.5A1.75 1.75 0 0 0 14.25 3H7.5a.25.25 0 0 1-.2-.1l-.9-1.2C6.07 1.26 5.55 1 5 1H1.75Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">scripts</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Hoist oxide/crates to just crates (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last week</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">.gitignore</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Hoist oxide/crates to just crates (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last week</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">.npmrc</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            introduce v4 codebase</a
+                          >
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last month</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">.prettierignore</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Hoist oxide/crates to just crates (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last week</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">CHANGELOG.md</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Don't reset ::first-letter in Preflight (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">2 days ago</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">Cargo.lock</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            remove Rust benchmarks and fixtures (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last week</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">Cargo.toml</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Hoist oxide/crates to just crates (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last week</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">LICENSE</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Add README, LICENSE, and CONTRIBUTING (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last month</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">README.md</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Copy README file to every package (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13096</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last month</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">package.json</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Hoist oxide/crates to just crates (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last week</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">pnpm-lock.yaml</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Hoist oxide/crates to just crates (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last week</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline"
+                          >pnpm-workspace.yaml</a
+                        >
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            Hoist oxide/crates to just crates (</a
+                          >
+                          <a href="#" class="text-blue-600 hover:underline">#13333</a>
+                          <a href="#" class="hover:text-blue-600 hover:underline">)</a>
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last week</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline">turbo.json</a>
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            introduce v4 codebase</a
+                          >
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last month</div></td>
+                  </tr>
+                  <tr class="hover:bg-[#f6f8fa] h-10 border-b">
+                    <td class="pl-4 min-w-[210px]" colspan="1">
+                      <div class="pr-4 flex items-center gap-2.5">
+                        <svg
+                          aria-hidden="true"
+                          focusable="false"
+                          role="img"
+                          class="icon-directory w-4 h-4 fill-current"
+                          viewBox="0 0 16 16"
+                          width="16"
+                          height="16"
+                        >
+                          <path
+                            d="M2 1.75C2 .784 2.784 0 3.75 0h6.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0 1 13.25 16h-9.5A1.75 1.75 0 0 1 2 14.25Zm1.75-.25a.25.25 0 0 0-.25.25v12.5c0 .138.112.25.25.25h9.5a.25.25 0 0 0 .25-.25V6h-2.75A1.75 1.75 0 0 1 9 4.25V1.5Zm6.75.062V4.25c0 .138.112.25.25.25h2.688l-.011-.013-2.914-2.914-.013-.011Z"
+                          ></path>
+                        </svg>
+                        <a href="#" class="hover:text-[#0969da] hover:underline"
+                          >vitest.workspace.ts</a
+                        >
+                      </div>
+                    </td>
+                    <td>
+                      <div>
+                        <span>
+                          <a href="#" class="hover:text-blue-600 hover:underline">
+                            introduce v4 codebase</a
+                          >
+                        </span>
+                      </div>
+                    </td>
+                    <td class="pr-4"><div class="text-right">last month</div></td>
+                  </tr>
                 </tbody>
               </table>
             </div>
             <!-- commits-container ends -->
+
+            <!-- readme-container starts -->
+            <div class="rounded-md border font-normal h-50 mt-4 mb-6">
+              <div class="flex flex-col relative">
+                <div class="h-12 border-b flex pr-2 sticky top-0 items-center bg-white">
+                  <nav class="flex px-2 justify-start items-center w-full">
+                    <ul class="flex gap-2">
+                      <li class="flex items-center">
+                        <a
+                          href="#"
+                          class="relative inline-flex items-center text-center px-2 hover:bg-[#afb8c133] rounded py-1 after:border after:border-orange-400 after:absolute after:w-full after:-bottom-2.5 after:left-0 after:rounded"
+                        >
+                          <span class="mr-2 inline-flex">
+                            <svg
+                              aria-hidden="true"
+                              focusable="false"
+                              role="img"
+                              class="w-4 h-4 fill-current"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span class="font-semibold">README</span>
+                        </a>
+                      </li>
+                      <li class="flex items-center">
+                        <a
+                          href="#"
+                          class="inline-flex items-center text-center px-2 hover:bg-[#afb8c133] rounded py-1"
+                        >
+                          <span class="mr-2 inline-flex">
+                            <svg
+                              aria-hidden="true"
+                              focusable="false"
+                              role="img"
+                              class="w-4 h-4 fill-current"
+                              viewBox="0 0 16 16"
+                            >
+                              <path
+                                d="M8.75.75V2h.985c.304 0 .603.08.867.231l1.29.736c.038.022.08.033.124.033h2.234a.75.75 0 0 1 0 1.5h-.427l2.111 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.006.005-.01.01-.045.04c-.21.176-.441.327-.686.45C14.556 10.78 13.88 11 13 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L12.178 4.5h-.162c-.305 0-.604-.079-.868-.231l-1.29-.736a.245.245 0 0 0-.124-.033H8.75V13h2.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5h2.5V3.5h-.984a.245.245 0 0 0-.124.033l-1.289.737c-.265.15-.564.23-.869.23h-.162l2.112 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.016.015-.045.04c-.21.176-.441.327-.686.45C4.556 10.78 3.88 11 3 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L2.178 4.5H1.75a.75.75 0 0 1 0-1.5h2.234a.249.249 0 0 0 .125-.033l1.288-.737c.265-.15.564-.23.869-.23h.984V.75a.75.75 0 0 1 1.5 0Zm2.945 8.477c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327Zm-10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327Z"
+                              ></path>
+                            </svg>
+                          </span>
+                          <span>MIT license</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+                  <button class="px-1.5 hover:bg-[#afb8c133] rounded py-1 mr-2">
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      role="img"
+                      class="w-4 h-4 fill-current"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M11.013 1.427a1.75 1.75 0 0 1 2.474 0l1.086 1.086a1.75 1.75 0 0 1 0 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 0 1-.927-.928l.929-3.25c.081-.286.235-.547.445-.758l8.61-8.61Zm.176 4.823L9.75 4.81l-6.286 6.287a.253.253 0 0 0-.064.108l-.558 1.953 1.953-.558a.253.253 0 0 0 .108-.064Zm1.238-3.763a.25.25 0 0 0-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 0 0 0-.354Z"
+                      ></path>
+                    </svg>
+                  </button>
+                  <button class="px-1.5 hover:bg-[#afb8c133] rounded py-1">
+                    <svg
+                      aria-hidden="true"
+                      focusable="false"
+                      role="img"
+                      class="w-4 h-4 fill-current"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M5.75 2.5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5ZM2 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Zm1-6a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM2 4a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+                <div class="overflow-auto p-8">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum neque rem esse,
+                  praesentium exercitationem earum sit aspernatur corporis assumenda non voluptate
+                  itaque nostrum nesciunt tempora at odit, similique facilis quos. Itaque maiores
+                  laborum modi culpa dignissimos fugiat aliquid atque. Perspiciatis labore, ullam
+                  velit doloremque laboriosam recusandae aspernatur facere distinctio vitae ab
+                  inventore pariatur placeat aliquam saepe temporibus, ipsam dicta quaerat eum nam,
+                  soluta debitis veritatis odit. Velit nostrum, repudiandae corporis earum nisi
+                  dignissimos omnis itaque rerum perferendis voluptates veritatis, reiciendis modi.
+                  Incidunt officiis aspernatur dolor soluta libero ad dignissimos quo tempora ex
+                  culpa eos id similique alias, voluptatum aut facilis?
+                </div>
+              </div>
+            </div>
+            <!-- readme-container ends -->
           </div>
-          <div id="layoutSidebar" class="w-1/4">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem, a sed. Quisquam omnis
-            nulla commodi, magni quidem, porro consectetur mollitia nisi laboriosam quia debitis
-            dolore aut quam voluptas reiciendis distinctio sint officiis voluptate perferendis
-            blanditiis non accusamus quo nostrum quaerat. Beatae, incidunt minus corrupti expedita
-            minima ipsum tenetur cupiditate commodi recusandae veniam totam eaque provident optio,
-            consectetur quasi earum velit ab impedit perferendis, placeat blanditiis quibusdam.
-            Voluptatem dicta recusandae autem quae fugit. Voluptate quis quo quidem magni,
-            consequuntur quae incidunt labore vero quasi nisi possimus repellendus, itaque magnam
-            placeat soluta omnis. Numquam minus laboriosam facere at qui sit, commodi fugit?
+          <div id="layoutSidebar" class="w-1/4 font-normal">
+            <div class="mt-3">
+              <!-- First row -->
+              <div class="grid-row">
+                <div class="py-4">
+                  <div class="hidden lg:block text-base">
+                    <h2 class="mb-3 font-semibold">About</h2>
+                    <p class="my-4">A utility-first CSS framework for rapid UI development.</p>
+                    <div class="my-4 flex items-center">
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 16 16"
+                        data-view-component="true"
+                        class="flex-shrink-0 mr-2 w-4 h-4"
+                      >
+                        <path
+                          d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"
+                        ></path>
+                      </svg>
+                      <span>
+                        <a href="#" class="font-semibold text-sm text-blue-600 hover:underline"
+                          >tailwindcss.com/</a
+                        >
+                      </span>
+                    </div>
+                    <!-- Tags -->
+                    <div class="my-4">
+                      <div class="text-xs">
+                        <a
+                          href="#"
+                          class="rounded-full bg-[#ddf4ff] py-1 text-blue-600 px-3 font-semibold hover:bg-[#0969da] hover:text-white inline-block mr-0.5 mb-1"
+                          >css</a
+                        >
+                        <a
+                          href="#"
+                          class="rounded-full bg-[#ddf4ff] py-1 text-blue-600 px-3 font-semibold hover:bg-[#0969da] hover:text-white inline-block mr-0.5 mb-1"
+                          >postcss</a
+                        >
+                        <a
+                          href="#"
+                          class="rounded-full bg-[#ddf4ff] py-1 text-blue-600 px-3 font-semibold hover:bg-[#0969da] hover:text-white inline-block mr-0.5 mb-1"
+                          >responsive</a
+                        >
+                        <a
+                          href="#"
+                          class="rounded-full bg-[#ddf4ff] py-1 text-blue-600 px-3 font-semibold hover:bg-[#0969da] hover:text-white inline-block mr-0.5 mb-1"
+                          >css-framework</a
+                        >
+                        <a
+                          href="#"
+                          class="rounded-full bg-[#ddf4ff] py-1 text-blue-600 px-3 font-semibold hover:bg-[#0969da] hover:text-white inline-block mr-0.5 mb-1"
+                          >functional-css</a
+                        >
+                        <a
+                          href="#"
+                          class="rounded-full bg-[#ddf4ff] py-1 text-blue-600 px-3 font-semibold hover:bg-[#0969da] hover:text-white inline-block mr-0.5 mb-1"
+                          >utility-classes</a
+                        >
+                        <a
+                          href="#"
+                          class="rounded-full bg-[#ddf4ff] py-1 text-blue-600 px-3 font-semibold hover:bg-[#0969da] hover:text-white inline-block mr-0.5 mb-1"
+                          >tailwindcss</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- First row ends -->
+            </div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="text-xs pt-16 pb-10 px-4 text-[#636c76]">
+      <div class="flex items-center justify-center">
+        <div class="flex mx-2 items-center">
+          <a href="#">
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 16 16"
+              version="1.1"
+              data-view-component="true"
+              class="fill-current w-6 h-6 mr-2"
+            >
+              <path
+                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+              ></path>
+            </svg>
+          </a>
+          <span>&copy; 2024 GitHub, Inc.</span>
+        </div>
+        <nav id="footerNav" class="">
+          <ul class="flex items-center mb-2 lg:mb-0">
+            <li class="mx-2">
+              <a href="#" class="hover:text-blue-600 hover:underline">Terms</a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="hover:text-blue-600 hover:underline">Privacy</a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="hover:text-blue-600 hover:underline">Security</a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="hover:text-blue-600 hover:underline">Status</a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="hover:text-blue-600 hover:underline">Docs</a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="hover:text-blue-600 hover:underline">Contact</a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="hover:text-blue-600 hover:underline">Manage cookies</a>
+            </li>
+            <li class="mx-2">
+              <a href="#" class="hover:text-blue-600 hover:underline"
+                >Do not share my personal information</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
   </div>
 </template>
