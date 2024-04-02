@@ -1340,16 +1340,62 @@
                   </button>
                 </div>
                 <div class="overflow-auto p-8">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum neque rem esse,
-                  praesentium exercitationem earum sit aspernatur corporis assumenda non voluptate
-                  itaque nostrum nesciunt tempora at odit, similique facilis quos. Itaque maiores
-                  laborum modi culpa dignissimos fugiat aliquid atque. Perspiciatis labore, ullam
-                  velit doloremque laboriosam recusandae aspernatur facere distinctio vitae ab
-                  inventore pariatur placeat aliquam saepe temporibus, ipsam dicta quaerat eum nam,
-                  soluta debitis veritatis odit. Velit nostrum, repudiandae corporis earum nisi
-                  dignissimos omnis itaque rerum perferendis voluptates veritatis, reiciendis modi.
-                  Incidunt officiis aspernatur dolor soluta libero ad dignissimos quo tempora ex
-                  culpa eos id similique alias, voluptatum aut facilis?
+                  <article class="prose max-w-none">
+                    <p class="text-center">
+                      <a href="#">
+                        <img
+                          alt="Tailwind CSS"
+                          src="https://raw.githubusercontent.com/tailwindlabs/tailwindcss/HEAD/.github/logo-light.svg"
+                          width="350"
+                          height="70"
+                        />
+                      </a>
+                    </p>
+                    <p class="text-center">
+                      A utility-first CSS framework for rapidly building custom user interfaces.
+                    </p>
+                    <p class="text-center">
+                      <a href="#"
+                        ><img
+                          src="https://camo.githubusercontent.com/0fc5d42b13fe6f7e19767638c71b34a7361977c9fa0f0998154e9530a3efb375/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f616374696f6e732f776f726b666c6f772f7374617475732f7461696c77696e646c6162732f7461696c77696e646373732f63692e796d6c3f6272616e63683d6e657874"
+                          alt="Build Status"
+                      /></a>
+                      <a href="#" rel="nofollow"
+                        ><img
+                          src="https://camo.githubusercontent.com/f8547d19256558978ea341278f9947daf8148d0d61f76470410bb1a4f9c7c497/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f64742f7461696c77696e646373732e737667"
+                          alt="Total Downloads"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="https://camo.githubusercontent.com/71a31d829a2ed9b400807848660a54a56d589787197aaad5f09a244ba7eb87f9/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f7461696c77696e646373732e737667"
+                          alt="Latest Release"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="https://camo.githubusercontent.com/7093ebef1c1152b28ecffe49e169848443ead2655c7ee5d8b269338d83283068/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f6c2f7461696c77696e646373732e737667"
+                          alt="License"
+                      /></a>
+                    </p>
+                    <hr />
+                    <h2>Documentation</h2>
+                    <p>
+                      For full documentation, visit <a href="#" rel="nofollow">tailwindcss.com</a>.
+                    </p>
+                    <h2>Community</h2>
+                    <p>
+                      For help, discussion about best practices, or any other conversation that
+                      would benefit from being searchable:
+                    </p>
+                    <p><a href="#">Discuss Tailwind CSS on GitHub</a></p>
+                    <p>For chatting with others using the framework:</p>
+                    <p><a href="#" rel="nofollow">Join the Tailwind CSS Discord Server</a></p>
+                    <h2>Contributing</h2>
+                    <p>
+                      If you're interested in contributing to Tailwind CSS, please read our
+                      <a href="#">contributing docs</a>
+                      <strong> before submitting a pull request</strong>.
+                    </p>
+                  </article>
                 </div>
               </div>
             </div>
@@ -1420,10 +1466,468 @@
                         >
                       </div>
                     </div>
+                    <!-- Read me -->
+                    <div class="mt-2 text-sm">
+                      <a href="#" class="hover:text-blue-600 text-[#636c76]">
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 16 16"
+                          version="1.1"
+                          data-view-component="true"
+                          class="fill-current w-4 h-4 mr-2 inline-block"
+                        >
+                          <path
+                            d="M0 1.75A.75.75 0 0 1 .75 1h4.253c1.227 0 2.317.59 3 1.501A3.743 3.743 0 0 1 11.006 1h4.245a.75.75 0 0 1 .75.75v10.5a.75.75 0 0 1-.75.75h-4.507a2.25 2.25 0 0 0-1.591.659l-.622.621a.75.75 0 0 1-1.06 0l-.622-.621A2.25 2.25 0 0 0 5.258 13H.75a.75.75 0 0 1-.75-.75Zm7.251 10.324.004-5.073-.002-2.253A2.25 2.25 0 0 0 5.003 2.5H1.5v9h3.757a3.75 3.75 0 0 1 1.994.574ZM8.755 4.75l-.004 7.322a3.752 3.752 0 0 1 1.992-.572H14.5v-9h-3.495a2.25 2.25 0 0 0-2.25 2.25Z"
+                          ></path>
+                        </svg>
+                        Readme
+                      </a>
+                    </div>
+                    <div class="mt-2 text-sm">
+                      <a href="#" class="hover:text-blue-600 text-[#636c76]">
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 16 16"
+                          version="1.1"
+                          data-view-component="true"
+                          class="fill-current w-4 h-4 mr-2 inline-block"
+                        >
+                          <path
+                            d="M8.75.75V2h.985c.304 0 .603.08.867.231l1.29.736c.038.022.08.033.124.033h2.234a.75.75 0 0 1 0 1.5h-.427l2.111 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.006.005-.01.01-.045.04c-.21.176-.441.327-.686.45C14.556 10.78 13.88 11 13 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L12.178 4.5h-.162c-.305 0-.604-.079-.868-.231l-1.29-.736a.245.245 0 0 0-.124-.033H8.75V13h2.5a.75.75 0 0 1 0 1.5h-6.5a.75.75 0 0 1 0-1.5h2.5V3.5h-.984a.245.245 0 0 0-.124.033l-1.289.737c-.265.15-.564.23-.869.23h-.162l2.112 4.692a.75.75 0 0 1-.154.838l-.53-.53.529.531-.001.002-.002.002-.006.006-.016.015-.045.04c-.21.176-.441.327-.686.45C4.556 10.78 3.88 11 3 11a4.498 4.498 0 0 1-2.023-.454 3.544 3.544 0 0 1-.686-.45l-.045-.04-.016-.015-.006-.006-.004-.004v-.001a.75.75 0 0 1-.154-.838L2.178 4.5H1.75a.75.75 0 0 1 0-1.5h2.234a.249.249 0 0 0 .125-.033l1.288-.737c.265-.15.564-.23.869-.23h.984V.75a.75.75 0 0 1 1.5 0Zm2.945 8.477c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327Zm-10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327Z"
+                          ></path>
+                        </svg>
+                        MIT license
+                      </a>
+                    </div>
+                    <div class="mt-2 text-sm">
+                      <a href="#" class="hover:text-blue-600 text-[#636c76]">
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 16 16"
+                          version="1.1"
+                          data-view-component="true"
+                          class="fill-current w-4 h-4 mr-2 inline-block"
+                        >
+                          <path
+                            d="M6 2c.306 0 .582.187.696.471L10 10.731l1.304-3.26A.751.751 0 0 1 12 7h3.25a.75.75 0 0 1 0 1.5h-2.742l-1.812 4.528a.751.751 0 0 1-1.392 0L6 4.77 4.696 8.03A.75.75 0 0 1 4 8.5H.75a.75.75 0 0 1 0-1.5h2.742l1.812-4.529A.751.751 0 0 1 6 2Z"
+                          ></path>
+                        </svg>
+                        Activity
+                      </a>
+                    </div>
+                    <div class="mt-2 text-sm">
+                      <a href="#" class="hover:text-blue-600 text-[#636c76]">
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 16 16"
+                          version="1.1"
+                          data-view-component="true"
+                          class="fill-current w-4 h-4 mr-2 inline-block"
+                        >
+                          <path
+                            d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0 1 14.25 14H1.75A1.75 1.75 0 0 1 0 12.25Zm1.75-.25a.25.25 0 0 0-.25.25v8.5c0 .138.112.25.25.25h12.5a.25.25 0 0 0 .25-.25v-8.5a.25.25 0 0 0-.25-.25ZM3.5 6.25a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75Zm.75 2.25h4a.75.75 0 0 1 0 1.5h-4a.75.75 0 0 1 0-1.5Z"
+                          ></path>
+                        </svg>
+                        Custom properties
+                      </a>
+                    </div>
+                    <div class="mt-2 text-sm">
+                      <a href="#" class="hover:text-blue-600 text-[#636c76]">
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 16 16"
+                          version="1.1"
+                          data-view-component="true"
+                          class="fill-current w-4 h-4 mr-2 inline-block"
+                        >
+                          <path
+                            d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.751.751 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Zm0 2.445L6.615 5.5a.75.75 0 0 1-.564.41l-3.097.45 2.24 2.184a.75.75 0 0 1 .216.664l-.528 3.084 2.769-1.456a.75.75 0 0 1 .698 0l2.77 1.456-.53-3.084a.75.75 0 0 1 .216-.664l2.24-2.183-3.096-.45a.75.75 0 0 1-.564-.41L8 2.694Z"
+                          ></path>
+                        </svg>
+                        <strong>77.7k</strong>
+                        stars
+                      </a>
+                    </div>
+                    <div class="mt-2 text-sm">
+                      <a href="#" class="hover:text-blue-600 text-[#636c76]">
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 16 16"
+                          version="1.1"
+                          data-view-component="true"
+                          class="fill-current w-4 h-4 mr-2 inline-block"
+                        >
+                          <path
+                            d="M8 2c1.981 0 3.671.992 4.933 2.078 1.27 1.091 2.187 2.345 2.637 3.023a1.62 1.62 0 0 1 0 1.798c-.45.678-1.367 1.932-2.637 3.023C11.67 13.008 9.981 14 8 14c-1.981 0-3.671-.992-4.933-2.078C1.797 10.83.88 9.576.43 8.898a1.62 1.62 0 0 1 0-1.798c.45-.677 1.367-1.931 2.637-3.022C4.33 2.992 6.019 2 8 2ZM1.679 7.932a.12.12 0 0 0 0 .136c.411.622 1.241 1.75 2.366 2.717C5.176 11.758 6.527 12.5 8 12.5c1.473 0 2.825-.742 3.955-1.715 1.124-.967 1.954-2.096 2.366-2.717a.12.12 0 0 0 0-.136c-.412-.621-1.242-1.75-2.366-2.717C10.824 4.242 9.473 3.5 8 3.5c-1.473 0-2.825.742-3.955 1.715-1.124.967-1.954 2.096-2.366 2.717ZM8 10a2 2 0 1 1-.001-3.999A2 2 0 0 1 8 10Z"
+                          ></path>
+                        </svg>
+                        <strong>607</strong>
+                        watching
+                      </a>
+                    </div>
+                    <div class="mt-2 text-sm">
+                      <a href="#" class="hover:text-blue-600 text-[#636c76]">
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 16 16"
+                          version="1.1"
+                          data-view-component="true"
+                          class="fill-current w-4 h-4 mr-2 inline-block"
+                        >
+                          <path
+                            d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"
+                          ></path>
+                        </svg>
+                        <strong>3.9k</strong>
+                        forks
+                      </a>
+                    </div>
+                    <div class="mt-2 text-sm">
+                      <a href="#" class="hover:text-blue-600 text-[#636c76]"> Report repository </a>
+                    </div>
                   </div>
                 </div>
               </div>
               <!-- First row ends -->
+              <!-- Second row -->
+              <div class="grid-row">
+                <div class="py-4 border-t">
+                  <div class="hidden lg:block text-base">
+                    <h2 class="mb-3 font-semibold">
+                      <a href="#">
+                        Releases
+                        <span class="inline-block text-xs py-0.5 rounded-full bg-gray-100 px-2"
+                          >221</span
+                        >
+                      </a>
+                    </h2>
+                    <a href="#" class="flex items-start group">
+                      <svg
+                        aria-hidden="true"
+                        viewBox="0 0 16 16"
+                        version="1.1"
+                        data-view-component="true"
+                        class="w-4 h-4 fill-green-600 mt-1.5 group-hover:fill-blue-600"
+                      >
+                        <path
+                          d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"
+                        ></path>
+                      </svg>
+                      <div class="ml-2">
+                        <span class="group-hover:text-blue-600 text-sm font-semibold">v3.4.3</span>
+                        <span
+                          class="ml-2 text-xs border border-green-600 text-green-600 rounded-full inline-block px-2 pb-0.5"
+                          >Latest</span
+                        >
+                        <span class="text-xs block group-hover:text-blue-600">5 days ago</span>
+                      </div>
+                    </a>
+                    <div class="mt-4">
+                      <a href="#" class="text-blue-600 hover:underline text-sm"> + 220 releases </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Second row ends -->
+              <!-- third row -->
+              <div class="grid-row">
+                <div class="py-4 border-t">
+                  <div class="hidden lg:block text-base">
+                    <h2 class="mb-3 font-semibold">
+                      <a href="#"> Packages </a>
+                    </h2>
+                    <p class="text-xs">No packages published</p>
+                  </div>
+                </div>
+              </div>
+              <!-- third row ends -->
+              <!-- fourth row -->
+              <div class="grid-row">
+                <div class="py-4 border-t">
+                  <div class="hidden lg:block text-base">
+                    <h2 class="mb-3 font-semibold">
+                      <a href="#">
+                        Used by
+                        <span class="inline-block text-xs py-0.5 rounded-full bg-gray-100 px-2"
+                          >8.7m</span
+                        >
+                      </a>
+                    </h2>
+                    <a href="#" class="flex items-center">
+                      <div class="flex -space-x-2">
+                        <img
+                          class="w-8 h-8 rounded-full border-2 border-white"
+                          src="https://avatars.githubusercontent.com/u/144333387?s=64&amp;v=4"
+                        />
+                        <img
+                          class="w-8 h-8 rounded-full border-2 border-white"
+                          src="https://avatars.githubusercontent.com/u/98830941?s=64&amp;v=4"
+                        />
+                        <img
+                          class="w-8 h-8 rounded-full border-2 border-white"
+                          src="https://avatars.githubusercontent.com/u/68992725?s=64&amp;v=4"
+                        />
+                        <img
+                          class="w-8 h-8 rounded-full border-2 border-white"
+                          src="https://avatars.githubusercontent.com/u/76530977?s=64&amp;v=4"
+                        />
+                        <img
+                          class="w-8 h-8 rounded-full border-2 border-white"
+                          src="https://avatars.githubusercontent.com/u/90525432?s=64&amp;v=4"
+                        />
+                        <img
+                          class="w-8 h-8 rounded-full border-2 border-white"
+                          src="https://avatars.githubusercontent.com/u/134862564?s=64&amp;v=4"
+                        />
+                        <img
+                          class="w-8 h-8 rounded-full border-2 border-white"
+                          src="https://avatars.githubusercontent.com/u/92373540?s=64&amp;v=4"
+                        />
+                        <img
+                          class="w-8 h-8 rounded-full border-2 border-white"
+                          src="https://avatars.githubusercontent.com/u/52626795?s=64&amp;v=4"
+                        />
+                      </div>
+                      <span class="text-blue-600 px-2 hover:underline text-xs font-semibold">
+                        + 8,695,424
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- fourth row ends -->
+              <!-- fourth row -->
+              <div class="grid-row">
+                <div class="py-4 border-t">
+                  <div class="hidden lg:block text-base">
+                    <h2 class="mb-3 font-semibold">
+                      <a href="#">
+                        Contributors
+                        <span class="inline-block text-xs py-0.5 rounded-full bg-gray-100 px-2"
+                          >279</span
+                        >
+                      </a>
+                    </h2>
+                    <ul class="flex items-center flex-wrap">
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/4323180?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/1834413?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/882133?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/in/715?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/in/2141?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/614993?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/2615508?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/112581971?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/6643991?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/5871133?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/1107521?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/1059139?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/485747?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                      <li class="mb-2 mr-2">
+                        <a href="#">
+                          <img
+                            src="https://avatars.githubusercontent.com/u/1422164?s=64&amp;v=4"
+                            alt="@adamwathan"
+                            class="w-8 h-8 rounded-full inline-block"
+                          />
+                        </a>
+                      </li>
+                    </ul>
+                    <div class="mt-3">
+                      <a href="#" class="text-blue-600 underline text-sm underline-offset-2">
+                        + 265 contributors
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- fourth row ends -->
+              <!-- fifth row -->
+              <div class="grid-row">
+                <div class="py-4 border-t">
+                  <div class="hidden lg:block text-base">
+                    <h2 class="mb-3 font-semibold">
+                      <a href="#"> Languages </a>
+                    </h2>
+
+                    <div class="mb-2 flex">
+                      <span data-view-component="true" class="flex w-full h-2">
+                        <span
+                          style="background-color: #3178c6 !important; width: 84.6%"
+                          class="rounded-l-md outline-2"
+                        ></span>
+                        <span
+                          style="background-color: #dea584 !important; width: 11.6%"
+                          class="outline-2 ml-0.5"
+                        ></span>
+                        <span
+                          style="background-color: #563d7c !important; width: 2.8%"
+                          class="outline-2 ml-0.5"
+                        ></span>
+                        <span
+                          style="background-color: #ededed !important; width: 1%"
+                          class="rounded-r-md outline-2 ml-0.5"
+                        ></span>
+                      </span>
+                    </div>
+
+                    <ul class="text-xs">
+                      <li class="inline">
+                        <a
+                          class="inline-flex items-center flex-nowrap text-xs mr-3"
+                          href="#"
+                          data-ga-click="Repository, language stats search click, location:repo overview"
+                        >
+                          <svg class="w-4 h-4 mr-2 fill-[#3178c6]">
+                            <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+                          </svg>
+                          <span class="color-fg-default font-bold mr-1">TypeScript</span>
+                          <span>84.6%</span>
+                        </a>
+                      </li>
+                      <li class="inline">
+                        <a
+                          class="inline-flex items-center flex-nowrap text-xs mr-3"
+                          href="#"
+                          data-ga-click="Repository, language stats search click, location:repo overview"
+                        >
+                          <svg class="w-4 h-4 mr-2 fill-[#dea584]">
+                            <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+                          </svg>
+                          <span class="color-fg-default font-bold mr-1">Rust</span>
+                          <span>11.6%</span>
+                        </a>
+                      </li>
+                      <li class="inline">
+                        <a
+                          class="inline-flex items-center flex-nowrap text-xs mr-3"
+                          href="#"
+                          data-ga-click="Repository, language stats search click, location:repo overview"
+                        >
+                          <svg class="w-4 h-4 mr-2 fill-[#563d7c]">
+                            <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+                          </svg>
+                          <span class="color-fg-default font-bold mr-1">CSS</span>
+                          <span>2.8%</span>
+                        </a>
+                      </li>
+                      <li class="inline">
+                        <span class="inline-flex items-center flex-nowrap text-xs mr-3">
+                          <svg class="w-4 h-4 mr-2 fill-[#ededed]">
+                            <path d="M8 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"></path>
+                          </svg>
+                          <span class="color-fg-default font-bold mr-1">Other</span>
+                          <span>1.0%</span>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- fifth row ends -->
             </div>
           </div>
         </div>
