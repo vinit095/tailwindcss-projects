@@ -54,8 +54,24 @@
       </div>
       <!-- Right section -->
       <div class="flex justify-between items-center">
+        <div class="xl:hidden flex">
+          <button
+            class="px-2 border border-gray-300 rounded items-center text-gray-600 hover:bg-gray-200 h-8"
+          >
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 16 16"
+              data-view-component="true"
+              class="w-4 h-4 fill-current"
+            >
+              <path
+                d="M10.68 11.74a6 6 0 0 1-7.922-8.982 6 6 0 0 1 8.982 7.922l3.04 3.04a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215ZM11.5 7a4.499 4.499 0 1 0-8.997 0A4.499 4.499 0 0 0 11.5 7Z"
+              ></path>
+            </svg>
+          </button>
+        </div>
         <div
-          class="relative border rounded-md border-gray-300 text-gray-600 items-center flex w-[350px] group hover:cursor-pointer h-full"
+          class="hidden xl:flex relative border rounded-md border-gray-300 text-gray-600 items-center w-[350px] group hover:cursor-pointer h-full"
         >
           <button class="absolute left-2">
             <svg
@@ -175,7 +191,7 @@
     </nav>
     <!-- Top navigation ends -->
     <div class="repo-nav px-4">
-      <nav class="min-h-8">
+      <nav class="min-h-8 flex justify-between items-center">
         <ul class="flex gap-2 items-center text-sm text-gray-600 min-h-12">
           <li class="inline-flex">
             <a
@@ -264,7 +280,7 @@
               <span class="inline-flex text-gray-800">Actions</span>
             </a>
           </li>
-          <li class="inline-flex">
+          <li class="hidden md:inline-flex">
             <a href="#" class="items-center flex gap-2 px-2 hover:bg-gray-200/60 rounded py-1">
               <svg
                 aria-hidden="true"
@@ -279,7 +295,7 @@
               <span class="inline-flex text-gray-800">Security</span>
             </a>
           </li>
-          <li class="inline-flex">
+          <li class="hidden md:inline-flex">
             <a href="#" class="items-center flex gap-2 px-2 hover:bg-gray-200/60 rounded py-1">
               <svg
                 aria-hidden="true"
@@ -295,16 +311,32 @@
             </a>
           </li>
         </ul>
+        <div class="flex md:hidden">
+          <button
+            class="px-2 border border-gray-300 rounded items-center text-gray-600 hover:bg-gray-200 h-8"
+          >
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 16 16"
+              data-view-component="true"
+              class="w-4 h-4 fill-current"
+            >
+              <path
+                d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"
+              ></path>
+            </svg>
+          </button>
+        </div>
       </nav>
     </div>
   </header>
 
   <div id="repoContainer">
     <!-- Repo container header -->
-    <div id="repoHeaderContainer" class="pt-3">
+    <div id="repoHeaderContainer" class="pt-4">
       <div
         id="repoHeader"
-        class="container mx-auto px-3 flex mb-3 lg:px-8 items-center justify-between"
+        class="container mx-auto px-3 flex mb-4 lg:px-8 items-center justify-between"
       >
         <div class="flex space-x-2 items-center">
           <img
@@ -420,7 +452,7 @@
       </div>
       <!-- Repo line breaker -->
       <div class="container mx-auto">
-        <div class="border-b mx-8"></div>
+        <div class="border-b border-1.5 border-[#d0d7de] xl:mx-8"></div>
       </div>
       <!-- Repo line breaker ends -->
     </div>
@@ -432,8 +464,10 @@
         class="container mx-auto px-3 flex mb-3 lg:px-8 items-center justify-between"
       >
         <!-- main content -->
-        <div class="flex justify-between w-full text-sm font-semibold text-gray-600">
-          <div id="layoutMain" class="w-3/4 mr-8">
+        <div
+          class="flex flex-col md:flex-row justify-between w-full text-sm font-semibold text-gray-600"
+        >
+          <div id="layoutMain" class="w-full md:w-3/4 md:mr-8">
             <div class="mt-4" id="rhcH">
               <div class="pt-2 pb-4 flex justify-between">
                 <!--Left branch nav starts -->
@@ -484,7 +518,7 @@
                             d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"
                           ></path>
                         </svg>
-                        29 Branches
+                        <span class="hidden xl:block">29 Branches</span>
                       </span>
                     </button>
                     <button
@@ -501,7 +535,7 @@
                             d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"
                           ></path>
                         </svg>
-                        240 Tags
+                        <span class="hidden xl:block">240 Tags</span>
                       </span>
                     </button>
                   </div>
@@ -540,7 +574,23 @@
                       </span>
                     </div>
                     <button
-                      class="flex space-x-2 border border-gray-300 bg-gray-100/40 items-center hover:bg-gray-100 px-3 py-1.5 rounded-lg"
+                      class="flex lg:hidden border border-gray-300 bg-gray-100/40 items-center hover:bg-gray-100 px-3 py-1.5 rounded-lg"
+                    >
+                      <span>
+                        <svg
+                          aria-hidden="true"
+                          viewBox="0 0 16 16"
+                          data-view-component="true"
+                          class="fill-current w-4 h-4"
+                        >
+                          <path
+                            d="M7.75 2a.75.75 0 0 1 .75.75V7h4.25a.75.75 0 0 1 0 1.5H8.5v4.25a.75.75 0 0 1-1.5 0V8.5H2.75a.75.75 0 0 1 0-1.5H7V2.75A.75.75 0 0 1 7.75 2Z"
+                          ></path>
+                        </svg>
+                      </span>
+                    </button>
+                    <button
+                      class="hidden lg:flex space-x-2 border border-gray-300 bg-gray-100/40 items-center hover:bg-gray-100 px-3 py-1.5 rounded-lg"
                     >
                       <span>Add file</span>
                       <span>
@@ -599,7 +649,7 @@
                     <td class="p-1" colspan="3">
                       <div class="p-2 pl-4 flex items-center justify-between gap-2">
                         <div class="flex gap-2 items-center grow">
-                          <div class="flex">
+                          <div class="flex flex-wrap">
                             <a href="#">
                               <img
                                 alt="adamwathan"
@@ -1401,12 +1451,12 @@
             </div>
             <!-- readme-container ends -->
           </div>
-          <div id="layoutSidebar" class="w-1/4 font-normal">
+          <div id="layoutSidebar" class="w-full md:w-1/4 font-normal">
             <div class="mt-3">
               <!-- First row -->
               <div class="grid-row">
                 <div class="py-4">
-                  <div class="hidden lg:block text-base">
+                  <div class="block text-base">
                     <h2 class="mb-3 font-semibold">About</h2>
                     <p class="my-4">A utility-first CSS framework for rapid UI development.</p>
                     <div class="my-4 flex items-center">
@@ -1592,7 +1642,7 @@
               <!-- Second row -->
               <div class="grid-row">
                 <div class="py-4 border-t">
-                  <div class="hidden lg:block text-base">
+                  <div class="block text-base">
                     <h2 class="mb-3 font-semibold">
                       <a href="#">
                         Releases
@@ -1632,7 +1682,7 @@
               <!-- third row -->
               <div class="grid-row">
                 <div class="py-4 border-t">
-                  <div class="hidden lg:block text-base">
+                  <div class="block text-base">
                     <h2 class="mb-3 font-semibold">
                       <a href="#"> Packages </a>
                     </h2>
@@ -1644,7 +1694,7 @@
               <!-- fourth row -->
               <div class="grid-row">
                 <div class="py-4 border-t">
-                  <div class="hidden lg:block text-base">
+                  <div class="block text-base">
                     <h2 class="mb-3 font-semibold">
                       <a href="#">
                         Used by
@@ -1699,7 +1749,7 @@
               <!-- fourth row -->
               <div class="grid-row">
                 <div class="py-4 border-t">
-                  <div class="hidden lg:block text-base">
+                  <div class="block text-base">
                     <h2 class="mb-3 font-semibold">
                       <a href="#">
                         Contributors
@@ -1848,7 +1898,7 @@
               <!-- fifth row -->
               <div class="grid-row">
                 <div class="py-4 border-t">
-                  <div class="hidden lg:block text-base">
+                  <div class="block text-base">
                     <h2 class="mb-3 font-semibold">
                       <a href="#"> Languages </a>
                     </h2>
